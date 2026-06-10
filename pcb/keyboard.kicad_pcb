@@ -3660,7 +3660,7 @@
 	(footprint "footprints:SK6812MINI-E_fixed"
 		(layer "F.Cu")
 		(uuid "78df3f47-a90e-4364-8ff8-09bc6e4b1bc7")
-		(at 175.5 70.5)
+		(at 207 70.5)
 		(descr "Add-on for regular MX-footprints with SK6812 MINI-E")
 		(tags "cherry MX SK6812 Mini-E rearmount rear mount led rgb backlight")
 		(property "Reference" "D10"
@@ -4659,7 +4659,7 @@
 	(footprint "Display:ER_OLEDM0.91_1x-I2C"
 		(layer "F.Cu")
 		(uuid "826ca2eb-74dc-48b4-a69f-917d6fad89de")
-		(at 189.5 59.31 90)
+		(at 188 65.31 90)
 		(descr "SSD1306 OLED module, 0.91 inch, 128x32, I2C (https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf)")
 		(tags "EastRising")
 		(property "Reference" "U2"
@@ -6182,7 +6182,7 @@
 	(footprint "footprints:XIAO-Generic-Hybrid-14P-2.54-21X17.8MM"
 		(layer "F.Cu")
 		(uuid "eaadf2ff-ca7b-4edb-8ef9-e1ba97a72804")
-		(at 175.3895 56.212015)
+		(at 174 60.5)
 		(property "Reference" "U1"
 			(at 0 2.54 0)
 			(layer "F.SilkS")
@@ -9661,7 +9661,7 @@
 		)
 	)
 	(gr_rect
-		(start 160.5 40)
+		(start 160.5 46.5)
 		(end 230.5 135)
 		(stroke
 			(width 0.05)

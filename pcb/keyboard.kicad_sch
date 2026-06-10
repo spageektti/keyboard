@@ -1810,7 +1810,7 @@
 	)
 	(text "RGB Lighting"
 		(exclude_from_sim no)
-		(at 150.368 51.308 0)
+		(at 172.72 67.564 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1820,7 +1820,7 @@
 	)
 	(text "OLED Screen"
 		(exclude_from_sim no)
-		(at 181.356 18.796 0)
+		(at 204.216 17.526 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1829,10 +1829,10 @@
 		(uuid "e1865890-8742-4991-b627-81498ef7fccd")
 	)
 	(junction
-		(at 149.86 58.42)
+		(at 172.72 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ecedf24-0c69-4b7a-af9d-769c0fb5a799")
+		(uuid "049eaf0c-ce23-4a52-b24f-d8d2a3fa3f4d")
 	)
 	(junction
 		(at 81.28 53.34)
@@ -1883,6 +1883,12 @@
 		(uuid "c8fc408d-01a9-4087-b48a-7a97e169aa7e")
 	)
 	(junction
+		(at 172.72 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb80056e-9325-4a58-a803-bc702dfc68ce")
+	)
+	(junction
 		(at 27.94 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1893,12 +1899,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3c8b0d8-2500-4136-8b5b-3a4401d975fc")
-	)
-	(junction
-		(at 149.86 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1b5d09d-c65e-4428-8e7f-9d750e74e244")
 	)
 	(junction
 		(at 59.69 88.9)
@@ -1938,7 +1938,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 71.12) (xy 162.56 71.12)
+			(xy 139.7 88.9) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1948,17 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.82) (xy 149.86 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2564ce62-9c22-4f5b-80ca-e1d72b0d9fcd")
-	)
-	(wire
-		(pts
-			(xy 149.86 58.42) (xy 170.18 58.42)
+			(xy 132.08 76.2) (xy 172.72 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1968,7 +1958,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 58.42) (xy 170.18 63.5)
+			(xy 172.72 76.2) (xy 172.72 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1988,7 +1978,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 83.82) (xy 170.18 83.82)
+			(xy 132.08 101.6) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1998,13 +1988,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 78.74) (xy 129.54 83.82)
+			(xy 132.08 96.52) (xy 132.08 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "64e10d6d-a4c7-4c66-8121-29970197f3a0")
+	)
+	(wire
+		(pts
+			(xy 172.72 101.6) (xy 213.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69639c34-f0c8-4c3b-88f8-e19ac5a9bbc8")
 	)
 	(wire
 		(pts
@@ -2018,7 +2018,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 63.5) (xy 129.54 58.42)
+			(xy 132.08 81.28) (xy 132.08 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2048,6 +2048,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 76.2) (xy 213.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86e0e18-4851-43fa-bb9c-23e146e7a7d3")
+	)
+	(wire
+		(pts
 			(xy 27.94 63.5) (xy 27.94 81.28)
 		)
 		(stroke
@@ -2065,16 +2075,6 @@
 			(type default)
 		)
 		(uuid "bc329508-fa55-4a85-8454-c5d505197827")
-	)
-	(wire
-		(pts
-			(xy 129.54 58.42) (xy 149.86 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bed845bd-f7c2-4019-8b28-bd45d76bcc47")
 	)
 	(wire
 		(pts
@@ -2098,6 +2098,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 96.52) (xy 213.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e1b8ae-b0fe-40a0-9e72-b59db6250d6e")
+	)
+	(wire
+		(pts
 			(xy 49.53 36.83) (xy 49.53 45.72)
 		)
 		(stroke
@@ -2105,6 +2115,26 @@
 			(type default)
 		)
 		(uuid "e392bbb1-9b49-4ed6-958e-ccbfc10e2f20")
+	)
+	(wire
+		(pts
+			(xy 172.72 76.2) (xy 213.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4793a27-2ce5-4c04-83d4-dee63f32b8d0")
+	)
+	(wire
+		(pts
+			(xy 180.34 88.9) (xy 205.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ef6eb4-70ae-410d-b11e-94aa1115038f")
 	)
 	(wire
 		(pts
@@ -2118,7 +2148,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 83.82) (xy 170.18 78.74)
+			(xy 172.72 101.6) (xy 172.72 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2250,7 +2280,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 171.45 34.29 180)
+		(at 194.31 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2260,7 +2290,7 @@
 		)
 		(uuid "1616aee9-a341-4eda-b7ac-e64b05c8e10f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.9572 34.29 0)
+			(at 187.8172 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2610,7 +2640,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 171.45 39.37 180)
+		(at 194.31 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2620,7 +2650,7 @@
 		)
 		(uuid "c6a5e2a2-3ca2-4b27-a4a4-3c4df493b89b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.8967 39.37 0)
+			(at 187.7567 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2778,7 +2808,7 @@
 	)
 	(global_label "RGB LEDs"
 		(shape input)
-		(at 121.92 71.12 180)
+		(at 124.46 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2788,7 +2818,7 @@
 		)
 		(uuid "fa99c4b7-9f88-46e8-a1df-20b0a9b1463e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.682 71.12 0)
+			(at 112.222 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3153,8 +3183,96 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 213.36 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27ce78d9-84db-4094-a691-7ae8c97eb760")
+		(property "Reference" "D12"
+			(at 227.33 82.4798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 227.33 85.0198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
+			(at 214.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 215.9 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ff130953-f6c4-43a6-abbb-d9b587f54a8a")
+		)
+		(pin "4"
+			(uuid "dacc8459-2bec-4f94-87c3-d15607b40ee0")
+		)
+		(pin "3"
+			(uuid "16596cdf-58d4-47e9-a33d-bfa7f2ae466b")
+		)
+		(pin "1"
+			(uuid "23b77b3d-98b8-4605-a50c-28245594d452")
+		)
+		(instances
+			(project "keyboard"
+				(path "/4c4f3ddc-1d30-4162-a584-75a0fd87c9ab"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
-		(at 181.61 36.83 0)
+		(at 204.47 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3165,7 +3283,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bf92c14-d937-46fc-8a88-cc39271650e3")
 		(property "Reference" "U2"
-			(at 190.5 35.5599 0)
+			(at 213.36 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3176,7 +3294,7 @@
 			)
 		)
 		(property "Value" "ER_OLEDM0.91_1x-I2C"
-			(at 190.5 38.0999 0)
+			(at 213.36 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3187,7 +3305,7 @@
 			)
 		)
 		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
-			(at 199.644 49.53 0)
+			(at 222.504 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3198,7 +3316,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
-			(at 224.282 51.562 0)
+			(at 247.142 50.292 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3209,7 +3327,7 @@
 			)
 		)
 		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
-			(at 208.28 53.594 0)
+			(at 231.14 52.324 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3462,7 +3580,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 149.86 58.42 0)
+		(at 172.72 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3473,7 +3591,7 @@
 		(fields_autoplaced yes)
 		(uuid "31c13f02-4899-4884-92b4-ef23b9b19776")
 		(property "Reference" "#PWR07"
-			(at 149.86 62.23 0)
+			(at 172.72 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3484,7 +3602,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 149.86 53.34 0)
+			(at 172.72 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3494,7 +3612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 58.42 0)
+			(at 172.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3505,7 +3623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 58.42 0)
+			(at 172.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3516,7 +3634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 149.86 58.42 0)
+			(at 172.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3619,7 +3737,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 83.82 0)
+		(at 172.72 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3630,7 +3748,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fabea3d-26e9-48e5-bf77-949c1154b47f")
 		(property "Reference" "#PWR06"
-			(at 149.86 90.17 0)
+			(at 172.72 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3641,7 +3759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 88.9 0)
+			(at 172.72 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3651,7 +3769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 83.82 0)
+			(at 172.72 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3662,7 +3780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 83.82 0)
+			(at 172.72 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3673,7 +3791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 83.82 0)
+			(at 172.72 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4672,7 +4790,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812MINI-E")
-		(at 170.18 71.12 0)
+		(at 172.72 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4683,7 +4801,7 @@
 		(fields_autoplaced yes)
 		(uuid "aae67537-344a-4818-a890-e796d998014e")
 		(property "Reference" "D11"
-			(at 184.15 64.6998 0)
+			(at 186.69 82.4798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4693,7 +4811,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 184.15 67.2398 0)
+			(at 186.69 85.0198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4703,7 +4821,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SK6812MINI-E_fixed"
-			(at 171.45 78.74 0)
+			(at 173.99 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,7 +4833,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
-			(at 172.72 80.645 0)
+			(at 175.26 98.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,7 +4845,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 170.18 71.12 0)
+			(at 172.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4760,7 +4878,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812MINI-E")
-		(at 129.54 71.12 0)
+		(at 132.08 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4771,7 +4889,7 @@
 		(fields_autoplaced yes)
 		(uuid "adc5d5c7-c0cf-4efd-b972-7bb6ace3735c")
 		(property "Reference" "D10"
-			(at 143.51 64.6998 0)
+			(at 146.05 82.4798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4781,7 +4899,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 143.51 67.2398 0)
+			(at 146.05 85.0198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4791,7 +4909,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SK6812MINI-E_fixed"
-			(at 130.81 78.74 0)
+			(at 133.35 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4803,7 +4921,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
-			(at 132.08 80.645 0)
+			(at 134.62 98.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4815,7 +4933,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 129.54 71.12 0)
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5136,7 +5254,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 181.61 26.67 0)
+		(at 204.47 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5147,7 +5265,7 @@
 		(fields_autoplaced yes)
 		(uuid "c96a40ba-9267-4cc4-882f-84345c8a4d70")
 		(property "Reference" "#PWR05"
-			(at 181.61 30.48 0)
+			(at 204.47 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5158,7 +5276,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 181.61 21.59 0)
+			(at 204.47 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5168,7 +5286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 26.67 0)
+			(at 204.47 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5179,7 +5297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 26.67 0)
+			(at 204.47 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5190,7 +5308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 181.61 26.67 0)
+			(at 204.47 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5318,7 +5436,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 46.99 0)
+		(at 204.47 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5329,7 +5447,7 @@
 		(fields_autoplaced yes)
 		(uuid "f252c5a8-3c37-4799-a2f3-0369bf03fb3f")
 		(property "Reference" "#PWR04"
-			(at 181.61 53.34 0)
+			(at 204.47 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5340,7 +5458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 52.07 0)
+			(at 204.47 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5350,7 +5468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 46.99 0)
+			(at 204.47 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5361,7 +5479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 46.99 0)
+			(at 204.47 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5372,7 +5490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 46.99 0)
+			(at 204.47 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
